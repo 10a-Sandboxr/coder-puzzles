@@ -8,9 +8,14 @@ export default function About() {
           <Link href="/" className="text-2xl font-bold text-white hover:text-purple-300 transition">
             XML Coder Puzzles
           </Link>
-          <Link href="/" className="text-purple-300 hover:text-purple-100 transition">
-            Home
-          </Link>
+          <div className="flex gap-6">
+            <Link href="/" className="text-purple-300 hover:text-purple-100 transition">
+              Home
+            </Link>
+            <Link href="/reviews" className="text-purple-300 hover:text-purple-100 transition">
+              Reviews
+            </Link>
+          </div>
         </div>
       </nav>
 
