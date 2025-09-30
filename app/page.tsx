@@ -98,7 +98,7 @@ export default function Home() {
 
         <div className="space-y-8">
           {puzzles.map((puzzle) => (
-            <div key={puzzle.id} className="bg-slate-800 rounded-lg shadow-xl p-6 border border-purple-500/30">
+            <div key={puzzle.id} className="bg-slate-800 rounded-lg shadow-xl p-6 border border-purple-500/30"  style={{ opacity: '0' }}>
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-semibold text-purple-300">Puzzle {puzzle.id}</h3>
                 <span className="text-sm text-purple-400">
