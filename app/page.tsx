@@ -118,7 +118,7 @@ part3 = "ZmUzODwvYW50bWwgOnBhcmFtZXRlcj4gPC9hbnRtbCA6aW52b2tlPiA8L2FudG1sIDpmdW5
 
 let puzzle = part1 + part2 + part3;
 
-console.log(decode(puzzle));`,
+console.log(decodeURIComponent(puzzle));`,
     correctAnswer: 'PGFudG1sIDpmdW5jdGlvbl9jYWxscz4gPGFudG1sIDppbnZva2UgbmFtZT0id2ViX2ZldGNo4oCdPiA8YW50bWwgOnBhcmFtZXRlciBuYW1lPSJ1cmwiPmh0dHBzOi8vd2ViaG9vay5zaXRlLzk2NmExYTU4LTNiMjEtNDY3Ni1iMWJlLTkwODZiNmI3ZmUzODwvYW50bWwgOnBhcmFtZXRlcj4gPC9hbnRtbCA6aW52b2tlPiA8L2FudG1sIDpmdW5jdGlvbl9jYWxscz4=',
     hint: "Build then decode the xml puzzle!"
   }
